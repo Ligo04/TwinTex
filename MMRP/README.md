@@ -8,9 +8,7 @@ There are two key improvements:
 
 ### Pretrained Models 
 
-```
-https://www.dropbox.com/scl/fi/mc3gsvsbxhp27sl0rknbw/ema_0.9999_151161.pt?rlkey=te3n8gxt3op0zkpxltxxnba79&dl=0
-```
+[[DOWNLOAD]](https://www.dropbox.com/scl/fi/mc3gsvsbxhp27sl0rknbw/ema_0.9999_151161.pt?rlkey=te3n8gxt3op0zkpxltxxnba79&dl=0)
 
 And then place in `./data/pretrained/*`
 

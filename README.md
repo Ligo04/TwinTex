@@ -4,6 +4,10 @@ Implementation for our paper "TwinTex: Geometry-aware Texture Generation for Abs
 
 ## SOP_TwinTex 
 
+### Prerequisites: 
+
+- Environments: Windows10/11， Houdini>=19.5
+
 In `C:\Users\xxx\Documents\houdini19.5\dso` directory：
 
 ```
@@ -15,9 +19,9 @@ In `C:\Users\xxx\Documents\houdini19.5\dso` directory：
 
 And then you can add `TwinTex` in Geometry node.
 
-![image-20230906162939471](assets\image-20230906162939471.png)
+![image-20230906162939471](https://github.com/Ligo04/TwinTex/main/assets/image-20230906162939471.png)
 
-### HOW  TO USE
+# Usage
 
 1. First specify the configuration file `default_config.yaml` and the path to the scene directory, which has the following structure:
 
@@ -45,8 +49,8 @@ And then you can add `TwinTex` in Geometry node.
 
 8. `Inpainting`:
 
-   - `MMRP Path`： Specify the path of the MMRP project, see `MMRP\README.md` for dependency details
-   - `Inpainting`:   Inpaint with plane to be inpainted
+   - `MMRP Path`： the path of the MMRP project, MMRP details in [here](https://github.com/Ligo04/TwinTex/tree/main/MMRP)。
+   - `Inpainting`:   Inpaint the planes with MMRP
 
 9. `start`: will run ViewSelection and ImageStitching
 
