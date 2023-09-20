@@ -7,7 +7,7 @@
 
 ## Structure of the code
 
-- `extract_mask.py`: Image Preprocessing.
+- `extract_mask.py`: Image preprocessing.
 - `mmrp_inpainting.py`: MMRP main.
 - `data/pretrained/*`: Pre-trained models.
 - `input/*`: Catalog of input image.
