@@ -8,7 +8,7 @@ Implementation for our paper "TwinTex: Geometry-aware Texture Generation for Abs
 
 ### Prerequisites
 
-- Environments: Windows10/11,Houdini>=19.5.x
+- Environments: Windows10/11, Houdini>=19.5.x
 
 ### Installation
 
@@ -43,11 +43,11 @@ Then you can search `TwinTex` in Houdini and add our tool as a node.
 
 3.  `Load Data`: Load scene data.
 
-4. (Optional) `Load Results`:  Load the results in `Result\final_result`.
+4. (Optional) `Load Results`: Load the results in `Result\final_result`.
 
-5. (Optional) `Show Views`: Show the position and direction of the view (only works on a single plane mode). The single plane  mode and id is specified in the configuration file.
+5. (Optional) `Show Views`: Show the position and direction of the view (only works on single plane mode). The single plane mode and plane id are specified in the configuration file.
 
-6. (Optional) `Show Image`: Show the output of ViewSelection or ImageStitching (only works on a single plane mode).
+6. (Optional) `Show Image`: Show the output of ViewSelection or ImageStitching (only works on single plane mode).
 
 7. `ViewSelection`:  Modify parameters of  `ViewSelection` and apply.
 
