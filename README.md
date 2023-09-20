@@ -15,7 +15,7 @@ In `C:\Users\xxx\Documents\houdini19.5\dso` directory：
 
 And then you can add `TwinTex` in Geometry node.
 
-![image-20230906162939471](.\assets\image-20230906162939471.png)
+![image-20230906162939471](assets\image-20230906162939471.png)
 
 ### HOW  TO USE
 
