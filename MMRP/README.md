@@ -10,7 +10,7 @@
 - `extract_mask.py`: Image Preprocessing.
 - `mmrp_inpainting.py`: MMRP main.
 - `data/pretrained/*`: Pre-trained models.
-- `input/*`: Catalog of input image .
+- `input/*`: Catalog of input image.
 - `log/*`: Catalog of intermediate results.
 - `result/*`: Catalog of final results.
 - `temp`: Directory of intermediate documents (conversions, cuts, etc).
