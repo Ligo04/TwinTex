@@ -6,9 +6,11 @@ Implementation for our paper "TwinTex: Geometry-aware Texture Generation for Abs
 
 ## SOP_TwinTex 
 
-### Prerequisites: 
+### Prerequisites
 
 - Environments: Windows10/11， Houdini>=19.5
+
+### Getting Started
 
 In `C:\Users\xxx\Documents\houdini19.5\dso` directory：
 
@@ -21,9 +23,9 @@ In `C:\Users\xxx\Documents\houdini19.5\dso` directory：
 
 And then you can add `TwinTex` in Geometry node.
 
-![sop_twintex](https://github.com/Ligo04/TwinTex/blob/main/images/image-20230906162939471.png)
+![sop_twintex](https://github.com/Ligo04/TwinTex/blob/main/images/SOP_TwinTex.png?raw=true)
 
-# Usage
+### Usage
 
 1. First specify the configuration file `default_config.yaml` and the path to the scene directory, which has the following structure:
 
@@ -58,6 +60,10 @@ And then you can add `TwinTex` in Geometry node.
 
 If Houdini crashes, please first check that you have followed the environment, configuration and steps above.
 
+## License
+
+Copyright (c) 2023. All rights reserved.
+
 ## Citation
 
 If you find this useful for your research, please cite the following paper.
@@ -73,5 +79,3 @@ pages={},
 year={2023},
 }
 ```
-
-**Copyright©2023. All rights reserved.**
