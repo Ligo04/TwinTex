@@ -8,9 +8,7 @@ There are two key improvements:
 
 ### Pretrained Models Usage
 
-- Download pretrained model from [here](https://www.dropbox.com/scl/fi/mc3gsvsbxhp27sl0rknbw/ema_0.9999_151161.pt?rlkey=te3n8gxt3op0zkpxltxxnba79&dl=0).
-
-- And then place in `./data/pretrained/*`
+- Download the pretrained MMRP model from [here](https://www.dropbox.com/scl/fi/mc3gsvsbxhp27sl0rknbw/ema_0.9999_151161.pt?rlkey=te3n8gxt3op0zkpxltxxnba79&dl=0) and copy it to `data/pretrained/*`.
 
 
 ## Structure of the document and part of the code
@@ -28,7 +26,7 @@ There are two key improvements:
 - `result/*`：Catalog of final results
 - `temp`：Directory of temporary documents (conversions, cuts, etc.)
 
-## houdini python Environment Installation
+## Houdini python Environment Installation
 
 1. Windows follows the path to navigate to the Houdini installation directory and then to the Python folder (e.g. python39). If pip.py does not exist, you will need to download [pip](https://bootstrap.pypa.io/get-pip.py) first, use following command to install pip:
 
@@ -36,13 +34,13 @@ There are two key improvements:
    python3.9.exe get-pip.py
    ```
 
-   Copy `requirements.txt` in the corresponding python directory, and install the environment via `requirements.txt`:
+   Copy `requirements.txt` to the corresponding python directory, and install the environment via `requirements.txt`:
 
    ```
    python3.9.exe -m pip install -r requirements.txt
    ```
 
-   And then install `pytorch`
+   And  install `pytorch`
 
    ```
    python3.9.exe -m pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116

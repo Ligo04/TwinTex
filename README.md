@@ -27,9 +27,9 @@ Then you can search `TwinTex` in Houdini and add our tool as a node.
 
 ### Usage 
 
-1. `Config File`: Specify the configuration file `default_config.yaml`
+1. `Config File`: Specify the configuration file `default_config.yaml`.
 
-2. `Scene Path`: Specify the path of the scene directory, which has the following structure
+2. `Scene Path`: Specify the path to the data directory, which is structed as follows:
 
    ```
    ----
@@ -47,9 +47,9 @@ Then you can search `TwinTex` in Houdini and add our tool as a node.
 
 4. (Optional) `Load Results`: Load the results in `Result\final_result`.
 
-5. (Optional) `Show Views`: Show the position and direction of the view (only work on single plane mode). The single plane mode and plane id are specified in the configuration file.
+5. (Optional) `Show Views`: Show the position and direction of the views(only work in single plane mode). The single plane mode and plane id are specified in the configuration file.
 
-6. (Optional) `Show Image`: Show the output of ViewSelection or ImageStitching (only work on single plane mode).
+6. (Optional) `Show Image`: Show the output images of `ViewSelection` or `ImageStitching` (only work in single plane mode).
 
 7. `ViewSelection`:  Modify parameters of `ViewSelection` and apply.
 
