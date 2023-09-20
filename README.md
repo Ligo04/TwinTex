@@ -8,11 +8,11 @@ Implementation for our paper "TwinTex: Geometry-aware Texture Generation for Abs
 
 ### Prerequisites
 
-- Environments: Windows10/11， Houdini>=19.5
+- Environments: Windows10/11,Houdini>=19.5.x
 
 ### Installation
 
-Place in  `C:\Users\xxx\Documents\houdini19.5\dso` directory：
+Copy our dlls in the following folder `C:\Users\xxx\Documents\houdini19.5\dso` :
 
 ```
 ----dso
@@ -21,7 +21,7 @@ Place in  `C:\Users\xxx\Documents\houdini19.5\dso` directory：
  ├──opencv_world460.dll
 ```
 
-And then you can add `TwinTex` in Geometry node.
+Then you can search `TwinTex` in Houdini and add our tool as a node.
 
 ![sop_twintex](https://github.com/Ligo04/TwinTex/blob/main/images/SOP_TwinTex.png?raw=true)
 
@@ -39,34 +39,34 @@ And then you can add `TwinTex` in Geometry node.
     ├──Results(auto）
    ```
 
-2. Press the `Load Data` button to load scene data
+2. Press the `Load Data` button to load scene data.
 
-3. (Optional) `Load Results` : Load the results of `Result\finale_result`.
+3. (Optional) `Load Results`: load the results of `Result\final_result`.
 
-4. (Optional) `Show Views`: show the position and direction of the view (only works on a single plane mode). The single plane  mode and id is specified in the configuration file。
+4. (Optional) `Show Views`: show the position and direction of the view (only works on a single plane mode). The single plane  mode and id is specified in the configuration file.
 
 5. (Optional) `Show Image`: show the output of ViewSelection or ImageStitching (only works on a single plane).
 
-6. `ViewSelection`: parameters of ViewSelection and apply buttuon
+6. `ViewSelection`: parameters of ViewSelection and apply buttuon.
 
-7. `ImageStitching`：parameters of ImageStitchingand and apply buttuon
+7. `ImageStitching`: parameters of ImageStitching and and apply buttuon.
 
-8. `Inpainting`:
+8. `Inpainting`
 
-   - `MMRP Path`： the path of the MMRP project, MMRP details in [here](https://github.com/Ligo04/TwinTex/tree/main/MMRP)。
-   - `Inpainting`:   inpaint the planes via MMRP
+   - `MMRP Path`: the path of the MMRP project, MMRP details in [here](https://github.com/Ligo04/TwinTex/tree/main/MMRP).
+   - `Inpainting`: inpaint the planes via MMRP.
 
-9. `start`: will run ViewSelection and ImageStitching 
+9. `start`: will run ViewSelection and ImageStitching.
 
 If Houdini crashes, please first check that you have followed the environment, configuration and steps above.
 
 ## License
 
-Copyright (c) 2023. All rights reserved.
+Copyright (c) 2023. VCC  All rights reserved.
 
 ## Citation
 
-If you find this useful for your research, please cite the following paper.
+If you find TwinTex useful for your research, please cite the following paper.
 
 ```
 @article{TwinTex23,
