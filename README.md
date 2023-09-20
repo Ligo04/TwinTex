@@ -30,7 +30,7 @@ And then you can add `TwinTex` in Geometry node.
 1. First specify the configuration file `default_config.yaml` and the path to the scene directory, which has the following structure:
 
    ```
-   ----
+   ----Scene Path/
     ├──Mesh
        ├──original_mesh.ply
        ├──simplify_mesh.ply

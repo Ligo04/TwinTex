@@ -48,7 +48,7 @@ There are two key improvements:
    python3.9.exe -m pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116
    ```
 
-The `inpaint` is added to the `Results/inpainting` directory:
+Some temp results is added to the `Results/inpainting` directory:
 
 ```bash
 ├── ./data/datasets/gt_keep_masks
