@@ -12,7 +12,7 @@ Implementation for our paper "TwinTex: Geometry-aware Texture Generation for Abs
 
 ### Installation
 
-Copy our dlls in the following folder `C:\Users\xxx\Documents\houdini19.5\dso` :
+Copy our dlls and paste to the following folder `C:\Users\xxx\Documents\houdini19.5\dso` :
 
 ```
 ----dso
@@ -29,7 +29,7 @@ Then you can search `TwinTex` in Houdini and add our tool as a node.
 
 1. `Config File`: Specify the configuration file `default_config.yaml`.
 
-2. `Scene Path`: Specify the path to the data directory, which is structed as follows:
+2. `Scene Path`: Specify the path to the data directory, which is structured as follow:
 
    ```
    ----
@@ -47,9 +47,9 @@ Then you can search `TwinTex` in Houdini and add our tool as a node.
 
 4. (Optional) `Load Results`: Load the results in `Result\final_result`.
 
-5. (Optional) `Show Views`: Show the position and direction of the views(only work in single plane mode). The single plane mode and id are specified in the configuration file.
+5. (Optional) `Show Views`: Show the position and direction of the views.
 
-6. (Optional) `Show Image`: Show the output images of `ViewSelection` or `ImageStitching` (only work in single plane mode).
+6. (Optional) `Show Image`: Show the output images of `ViewSelection` or `ImageStitching`.
 
 7. `ViewSelection`:  Modify parameters of `ViewSelection` and apply `ViewSelection`. 
 
@@ -57,16 +57,16 @@ Then you can search `TwinTex` in Houdini and add our tool as a node.
 
 9. `Inpainting`
 
-   - `MMRP Path`: Specify the path to the MMRP project. MMRP details in [here](https://github.com/Ligo04/TwinTex/tree/main/MMRP).
-   - `Inpainting`: Inpaint the planes via MMRP.
+   - `MMRP Path`: Specify the path of the Pre-trained MMRP model. More details of MMRP could be found  [here](https://github.com/Ligo04/TwinTex/tree/main/MMRP).
+   - `Inpainting`: Inpaint the empty regions via MMRP.
 
 10. `start`: Apply `ViewSelection` and `ImageStitching`.
 
-If Houdini crashes, please first check that you have followed the environment, configuration and steps above.
+If Houdini crashes, please first check that you followed the above steps.
 
 ## License
 
-Copyright (c) 2023. VCC  All rights reserved.
+Copyright (c) 2023 VCC. All rights reserved.
 
 ## Citation
 

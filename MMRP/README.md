@@ -1,28 +1,23 @@
 # Multi-Mask RePaint (MMRP)
 
-### Pretrained Models Usage
+### Usage of Pre-trained Models
 
 - Download the pretrained MMRP model from [here](https://www.dropbox.com/scl/fi/mc3gsvsbxhp27sl0rknbw/ema_0.9999_151161.pt?rlkey=te3n8gxt3op0zkpxltxxnba79&dl=0) and copy it to `./ata/pretrained/*`.
 
 
-## Structure of the document and part of the code
+## Structure of the code
 
-- `extract_mask.py`：Image Preprocessing.
-- `mmrp_inpainting.py`： MMRP main.
-- `inpaint.py`: Repainted .
-- `conf_mgt/*`：Parameter file handling, file writing.
-- `confs/*`：Parameter file directory.
-- `data/datasets/*`：Ground truth and mask.
-- `data/pretrained/*`：Pre-trained models.
-- `guided_diffusion/*`：Diffusion model related.
-- `input/*`：Catalog of input image .
-- `log/*`：Catalog of intermediate results.
-- `result/*`：Catalog of final results.
-- `temp`：Directory of temporary documents (conversions, cuts, etc).
+- `extract_mask.py`: Image Preprocessing.
+- `mmrp_inpainting.py`: MMRP main.
+- `data/pretrained/*`: Pre-trained models.
+- `input/*`: Catalog of input image .
+- `log/*`: Catalog of intermediate results.
+- `result/*`: Catalog of final results.
+- `temp`: Directory of intermediate documents (conversions, cuts, etc).
 
-## Houdini python Environment Installation
+## Houdini python environment configuration
 
-For Windows, use the following commands to install Pip ([get-pip.py](https://bootstrap.pypa.io/get-pip.py)) and external python modules in Houdini. (Houdini python in `./Houdini 19.5.xx/python39/`)
+For Windows, use the following commands to install pip ([get-pip.py](https://bootstrap.pypa.io/get-pip.py)) and external python modules to Houdini. (Houdini python in `./Houdini 19.5.xx/python39/`)
 
 ```
 # install pip
@@ -35,7 +30,7 @@ python3.9.exe -m pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torch
 
 ## Others
 
-Temp results are added to the `Results/inpainting` directory:
+Intermediate results are added to the `Results/inpainting/`:
 
 ```bash
 ├── ./data/datasets/gt_keep_masks
