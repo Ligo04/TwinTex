@@ -17,10 +17,10 @@ There are two key improvements:
 
 - `extract_mask.py`：Image Preprocessing
 - `mmrp_inpainting.py`： MMRP main
-- `inpaint.py`: repainted 
+- `inpaint.py`: Repainted 
 - `conf_mgt/*`：Parameter file handling, file writing
 - `confs/*`：Parameter file directory
-- `data/datasets/*`：ground truth and mask
+- `data/datasets/*`：Ground truth and mask
 - `data/pretrained/*`：Pre-trained models
 - `guided_diffusion/*`：Diffusion model related
 - `input/*`：Catalog of input image 
@@ -30,19 +30,19 @@ There are two key improvements:
 
 ## houdini python Environment Installation
 
-1. Windows follows the path to navigate to the Houdini installation directory and then to the Python folder (e.g. python39). If pip.py does not exist, you will need to download [pip](https://bootstrap.pypa.io/get-pip.py) first, then open a Windows terminal in this folder and enter the command to install pip.
+1. Windows follows the path to navigate to the Houdini installation directory and then to the Python folder (e.g. python39). If pip.py does not exist, you will need to download [pip](https://bootstrap.pypa.io/get-pip.py) first, use following command to install pip:
 
    ```
    python3.9.exe get-pip.py
    ```
 
-   Place the project's `requirements.txt` in the corresponding python directory, and install the environment via `requirements.txt`.
+   Copy `requirements.txt` in the corresponding python directory, and install the environment via `requirements.txt`:
 
    ```
    python3.9.exe -m pip install -r requirements.txt
    ```
 
-   `pytorch` install:
+   And then install `pytorch`
 
    ```
    python3.9.exe -m pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116
