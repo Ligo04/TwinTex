@@ -27,7 +27,9 @@ Then you can search `TwinTex` in Houdini and add our tool as a node.
 
 ### Usage 
 
-1. First specify the configuration file `default_config.yaml` and the path to the scene directory, which has the following structure:
+1. `Config File`: Specify the configuration file `default_config.yaml`
+
+2. `Scene Path`: Specify the path of the scene directory, which has the following structure
 
    ```
    ----Scene Path/
@@ -39,24 +41,24 @@ Then you can search `TwinTex` in Houdini and add our tool as a node.
     ├──Results(auto）
    ```
 
-2. Press the `Load Data` button to load scene data.
+3.  `Load Data`: Load scene data.
 
-3. (Optional) `Load Results`: load the results of `Result\final_result`.
+4. (Optional) `Load Results`:  Load the results in `Result\final_result`.
 
-4. (Optional) `Show Views`: show the position and direction of the view (only works on a single plane mode). The single plane  mode and id is specified in the configuration file.
+5. (Optional) `Show Views`: Show the position and direction of the view (only works on a single plane mode). The single plane  mode and id is specified in the configuration file.
 
-5. (Optional) `Show Image`: show the output of ViewSelection or ImageStitching (only works on a single plane).
+6. (Optional) `Show Image`: Show the output of ViewSelection or ImageStitching (only works on a single plane mode).
 
-6. `ViewSelection`: parameters of ViewSelection and apply buttuon.
+7. `ViewSelection`:  Modify parameters of  `ViewSelection` and apply.
 
-7. `ImageStitching`: parameters of ImageStitching and and apply buttuon.
+8. `ImageStitching`: Modify parameters of `ImageStitching` and apply.
 
-8. `Inpainting`
+9. `Inpainting`
 
-   - `MMRP Path`: the path of the MMRP project, MMRP details in [here](https://github.com/Ligo04/TwinTex/tree/main/MMRP).
-   - `Inpainting`: inpaint the planes via MMRP.
+   - `MMRP Path`: Specify the path of the MMRP project. MMRP details in [here](https://github.com/Ligo04/TwinTex/tree/main/MMRP).
+   - `Inpainting`: Inpaint the planes via MMRP.
 
-9. `start`: will run ViewSelection and ImageStitching.
+10. `start`: Apply `ViewSelection` and `ImageStitching`
 
 If Houdini crashes, please first check that you have followed the environment, configuration and steps above.
 
