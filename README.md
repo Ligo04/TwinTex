@@ -47,20 +47,20 @@ Then you can search `TwinTex` in Houdini and add our tool as a node.
 
 4. (Optional) `Load Results`: Load the results in `Result\final_result`.
 
-5. (Optional) `Show Views`: Show the position and direction of the views(only work in single plane mode). The single plane mode and plane id are specified in the configuration file.
+5. (Optional) `Show Views`: Show the position and direction of the views(only work in single plane mode). The single plane mode and id are specified in the configuration file.
 
 6. (Optional) `Show Image`: Show the output images of `ViewSelection` or `ImageStitching` (only work in single plane mode).
 
-7. `ViewSelection`:  Modify parameters of `ViewSelection` and apply.
+7. `ViewSelection`:  Modify parameters of `ViewSelection` and apply `ViewSelection`. 
 
-8. `ImageStitching`: Modify parameters of `ImageStitching` and apply.
+8. `ImageStitching`: Modify parameters of `ImageStitching` and apply `ImageStitching`.
 
 9. `Inpainting`
 
-   - `MMRP Path`: Specify the path of the MMRP project. MMRP details in [here](https://github.com/Ligo04/TwinTex/tree/main/MMRP).
+   - `MMRP Path`: Specify the path to the MMRP project. MMRP details in [here](https://github.com/Ligo04/TwinTex/tree/main/MMRP).
    - `Inpainting`: Inpaint the planes via MMRP.
 
-10. `start`: Apply `ViewSelection` and `ImageStitching`
+10. `start`: Apply `ViewSelection` and `ImageStitching`.
 
 If Houdini crashes, please first check that you have followed the environment, configuration and steps above.
 

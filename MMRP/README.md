@@ -2,45 +2,38 @@
 
 ### Pretrained Models Usage
 
-- Download the pretrained MMRP model from [here](https://www.dropbox.com/scl/fi/mc3gsvsbxhp27sl0rknbw/ema_0.9999_151161.pt?rlkey=te3n8gxt3op0zkpxltxxnba79&dl=0) and copy it to `data/pretrained/*`.
+- Download the pretrained MMRP model from [here](https://www.dropbox.com/scl/fi/mc3gsvsbxhp27sl0rknbw/ema_0.9999_151161.pt?rlkey=te3n8gxt3op0zkpxltxxnba79&dl=0) and copy it to `./ata/pretrained/*`.
 
 
 ## Structure of the document and part of the code
 
-- `extract_mask.py`：Image Preprocessing
-- `mmrp_inpainting.py`： MMRP main
-- `inpaint.py`: Repainted 
-- `conf_mgt/*`：Parameter file handling, file writing
-- `confs/*`：Parameter file directory
-- `data/datasets/*`：Ground truth and mask
-- `data/pretrained/*`：Pre-trained models
-- `guided_diffusion/*`：Diffusion model related
-- `input/*`：Catalog of input image 
-- `log/*`：Catalog of intermediate results
-- `result/*`：Catalog of final results
-- `temp`：Directory of temporary documents (conversions, cuts, etc.)
+- `extract_mask.py`：Image Preprocessing.
+- `mmrp_inpainting.py`： MMRP main.
+- `inpaint.py`: Repainted .
+- `conf_mgt/*`：Parameter file handling, file writing.
+- `confs/*`：Parameter file directory.
+- `data/datasets/*`：Ground truth and mask.
+- `data/pretrained/*`：Pre-trained models.
+- `guided_diffusion/*`：Diffusion model related.
+- `input/*`：Catalog of input image .
+- `log/*`：Catalog of intermediate results.
+- `result/*`：Catalog of final results.
+- `temp`：Directory of temporary documents (conversions, cuts, etc).
 
 ## Houdini python Environment Installation
 
-1. In Windows,follows the path to navigate to the Houdini installation directory and then to the Python folder (e.g. python39). If pip.py does not exist, you will need to download [pip](https://bootstrap.pypa.io/get-pip.py) first, use following command to install pip:
+For Windows, use the following commands to install Pip ([get-pip.py](https://bootstrap.pypa.io/get-pip.py)) and external python modules in Houdini. (Houdini python in `./Houdini 19.5.xx/python39/`)
 
-   ```
-   python3.9.exe get-pip.py
-   ```
+```
+# install pip
+python3.9.exe get-pip.py
+# requirements
+python3.9.exe -m pip install -r requirements.txt
+# pytroch
+python3.9.exe -m pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116
+```
 
-   Copy `requirements.txt` to the corresponding python directory, and install the environment via `requirements.txt`:
-
-   ```
-   python3.9.exe -m pip install -r requirements.txt
-   ```
-
-   And  install `pytorch`
-
-   ```
-   python3.9.exe -m pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116
-   ```
-
-Some temp results is added to the `Results/inpainting` directory:
+Temp results are added to the `Results/inpainting` directory:
 
 ```bash
 ├── ./data/datasets/gt_keep_masks
