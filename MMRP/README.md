@@ -6,11 +6,12 @@ There are two key improvements:
 - The missing regions are chunked and each initialized to the same Gaussian noise
 - Initialize different regions of the chunk with Gaussian noise of different parameters
 
-### Pretrained Models 
+### Pretrained Models Usage
 
-[[DOWNLOAD]](https://www.dropbox.com/scl/fi/mc3gsvsbxhp27sl0rknbw/ema_0.9999_151161.pt?rlkey=te3n8gxt3op0zkpxltxxnba79&dl=0)
+- Download pretrained model from [here](https://www.dropbox.com/scl/fi/mc3gsvsbxhp27sl0rknbw/ema_0.9999_151161.pt?rlkey=te3n8gxt3op0zkpxltxxnba79&dl=0).
 
-And then place in `./data/pretrained/*`
+- And then place in `./data/pretrained/*`
+
 
 ## Structure of the document and part of the code
 
@@ -59,7 +60,6 @@ The `inpaint` is added to the `Results/inpainting` directory:
 
 ├── ./data/datasets/gts
 │   ├── plane298/000000.png  # ground truth，512x512
-
 ./confs/
 │   ├── plane298_twintex46365.yml
 ```
