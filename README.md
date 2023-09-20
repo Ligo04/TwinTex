@@ -32,12 +32,14 @@ Then you can search `TwinTex` in Houdini and add our tool as a node.
 2. `Scene Path`: Specify the path of the scene directory, which has the following structure
 
    ```
-   ----Scene Path/
+   ----
     ├──Mesh
        ├──original_mesh.ply
        ├──simplify_mesh.ply
        ├──simplify_mesh_sub.ply
     ├──Scene
+       ├──XXX.JPG
+       ├──XXX.CAM
     ├──Results(auto）
    ```
 
@@ -45,11 +47,11 @@ Then you can search `TwinTex` in Houdini and add our tool as a node.
 
 4. (Optional) `Load Results`: Load the results in `Result\final_result`.
 
-5. (Optional) `Show Views`: Show the position and direction of the view (only works on single plane mode). The single plane mode and plane id are specified in the configuration file.
+5. (Optional) `Show Views`: Show the position and direction of the view (only work on single plane mode). The single plane mode and plane id are specified in the configuration file.
 
-6. (Optional) `Show Image`: Show the output of ViewSelection or ImageStitching (only works on single plane mode).
+6. (Optional) `Show Image`: Show the output of ViewSelection or ImageStitching (only work on single plane mode).
 
-7. `ViewSelection`:  Modify parameters of  `ViewSelection` and apply.
+7. `ViewSelection`:  Modify parameters of `ViewSelection` and apply.
 
 8. `ImageStitching`: Modify parameters of `ImageStitching` and apply.
 
