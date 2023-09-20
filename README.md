@@ -2,6 +2,8 @@
 
 Implementation for our paper "TwinTex: Geometry-aware Texture Generation for Abstracted 3D Architectural Models" (ACM SIGGRAPH Asia 2023).
 
+![tensor](https://github.com/Ligo04/TwinTex/blob/main/images/teaser.png?raw=true)
+
 ## SOP_TwinTex 
 
 ### Prerequisites: 
@@ -19,7 +21,7 @@ In `C:\Users\xxx\Documents\houdini19.5\dso` directory：
 
 And then you can add `TwinTex` in Geometry node.
 
-![image-20230906162939471](https://github.com/Ligo04/TwinTex/main/assets/image-20230906162939471.png)
+![sop_twintex](https://github.com/Ligo04/TwinTex/blob/main/images/image-20230906162939471.png)
 
 # Usage
 
@@ -43,18 +45,18 @@ And then you can add `TwinTex` in Geometry node.
 
 5. (Optional) `Show Image`: show the output of ViewSelection or ImageStitching (only works on a single plane).
 
-6. `ViewSelection`: Parameters of ViewSelection and apply buttuon
+6. `ViewSelection`: parameters of ViewSelection and apply buttuon
 
-7. `ImageStitching`：Parameters of ImageStitchingand and apply buttuon
+7. `ImageStitching`：parameters of ImageStitchingand and apply buttuon
 
 8. `Inpainting`:
 
    - `MMRP Path`： the path of the MMRP project, MMRP details in [here](https://github.com/Ligo04/TwinTex/tree/main/MMRP)。
-   - `Inpainting`:   Inpaint the planes with MMRP
+   - `Inpainting`:   inpaint the planes via MMRP
 
-9. `start`: will run ViewSelection and ImageStitching
+9. `start`: will run ViewSelection and ImageStitching 
 
-If houdini crashes, please first check that you have followed the environment, configuration and steps above.
+If Houdini crashes, please first check that you have followed the environment, configuration and steps above.
 
 ## Citation
 
