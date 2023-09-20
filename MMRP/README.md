@@ -1,11 +1,5 @@
 # Multi-Mask RePaint (MMRP)
 
-The core idea is to utilize the high sensitivity of the diffusion model to the initial input noise during the sampling phase in order to indirectly achieve suppression of the overfitting effect.
-There are two key improvements:
-
-- The missing regions are chunked and each initialized to the same Gaussian noise
-- Initialize different regions of the chunk with Gaussian noise of different parameters
-
 ### Pretrained Models Usage
 
 - Download the pretrained MMRP model from [here](https://www.dropbox.com/scl/fi/mc3gsvsbxhp27sl0rknbw/ema_0.9999_151161.pt?rlkey=te3n8gxt3op0zkpxltxxnba79&dl=0) and copy it to `data/pretrained/*`.
@@ -28,7 +22,7 @@ There are two key improvements:
 
 ## Houdini python Environment Installation
 
-1. Windows follows the path to navigate to the Houdini installation directory and then to the Python folder (e.g. python39). If pip.py does not exist, you will need to download [pip](https://bootstrap.pypa.io/get-pip.py) first, use following command to install pip:
+1. In Windows,follows the path to navigate to the Houdini installation directory and then to the Python folder (e.g. python39). If pip.py does not exist, you will need to download [pip](https://bootstrap.pypa.io/get-pip.py) first, use following command to install pip:
 
    ```
    python3.9.exe get-pip.py
