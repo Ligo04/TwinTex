@@ -8,7 +8,7 @@ Implementation for our paper "TwinTex: Geometry-aware Texture Generation for Abs
 
 ### Prerequisites
 
-- Environments: Windows10/11, Houdini>=19.5.x
+- Environments: Windows10/11, Houdini version>=19.5.x
 
 ### Installation
 
@@ -43,7 +43,7 @@ Then you can search `TwinTex` in Houdini and add our tool as a node.
     ├──Results(auto）
    ```
 
-3.  `Load Data`: Load scene data.
+3. `Load Data`: Load scene data.
 
 4. (Optional) `Load Results`: Load the results in `Result\final_result`.
 
@@ -60,7 +60,9 @@ Then you can search `TwinTex` in Houdini and add our tool as a node.
    - `MMRP Path`: Specify the path of the Pre-trained MMRP model. More details of MMRP could be found  [here](https://github.com/Ligo04/TwinTex/tree/main/MMRP).
    - `Inpainting`: Inpaint the empty regions via MMRP.
 
-10. `start`: Apply `ViewSelection` and `ImageStitching`.
+10. `Start`: Apply `ViewSelection` and `ImageStitching`.
+
+Please run `Inpainting` after `ViewSelection` and `ImageStitching`.
 
 If Houdini crashes, please first check that you followed the above steps.
 
