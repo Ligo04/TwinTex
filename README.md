@@ -62,7 +62,7 @@ Then you can search `TwinTex` in Houdini and add our tool as a node.
 
 10. `Start`: Apply `ViewSelection` and `ImageStitching`.
 
-TwinTex should run the following modules in order: `ViewSelection` ->`ImageStitching`->`Inpainting`.
+TwinTex should run the following modules in order: `Load Data` -> `ViewSelection` -> `ImageStitching` -> `Inpainting`.
 
 If Houdini crashes, please first check that you followed the above steps.
 
