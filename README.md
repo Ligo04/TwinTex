@@ -1,6 +1,6 @@
 # TwinTex: Geometry-aware Texture Generation for Abstracted 3D Architectural Models
 
-Implementation for our paper "TwinTex: Geometry-aware Texture Generation for Abstracted 3D Architectural Models" (ACM SIGGRAPH Asia 2023).
+Official Implementation for our paper "TwinTex: Geometry-aware Texture Generation for Abstracted 3D Architectural Models" (ACM SIGGRAPH Asia 2023).
 
 ![tensor](https://github.com/Ligo04/TwinTex/blob/main/images/teaser.png?raw=true)
 
