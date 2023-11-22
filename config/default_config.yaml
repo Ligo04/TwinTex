@@ -1,0 +1,77 @@
+%YAML:1.0
+# data
+
+# debug mode
+debug_mode: 1
+output_image: 1
+
+# image blending
+strip_width: 20
+
+# 0. preprocessing
+# region growing
+accept_angle: 0.975
+# accept_distance: 0.01 # in meters
+
+# 1. view selection
+
+# plane visibility detection
+visibility_filter: 1
+object_extract_threshold: 8.0 # in meters
+filter_extract_threshold: 100
+accept_visibility: 0.001
+view_filtering_accept_angle: 85.0
+visibility_detection_accept_angle: 75.0
+view_filtering_accept_distance: 2
+visibility_detection_accept_distance: 1.5
+
+# extended boundary
+extended_boundary_flag : 0
+
+# plane quality parameters
+# lam_gradient + lam_consistent = 1
+lam_gradient: 0.05
+lam_consistent: 0.95
+lam_percep : 0.2
+lam_smooth : 0.05
+
+# photometric consistency filtering
+outlier_removal: 1
+
+# 2. image stitching
+# primitive detection
+merging_seg_cos: 0.95
+merging_seg_dis: 20
+merging_seg_close_dis: 20
+min_segment_length: 300
+
+line_distance_threshold: 10.0
+line_angle_threshold: 5.0
+
+# icp
+lam_dist_icp : 10
+lam_merge_point : 5
+
+# segments match
+lam_dist : 20
+lam_angle : 5
+lam_pro : 10
+
+flag_align : 0
+
+# adaptive mesh
+lambda_align : 20.0
+lambda_preserve : 20.0
+lambda_regular : 1.0
+
+# debug0
+single_plane : 1
+plane_id : 6
+
+# cluster line 
+cluster_merging_seg_cos:  0.95
+cluster_merging_seg_dis: 20
+cluster_merging_seg_close_dis: 20
+cluster_min_segment_length: 80
+cluster_max_dis_centers: 0.1
+cluster_max_radius: 0.03
