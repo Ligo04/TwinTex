@@ -26,17 +26,19 @@ view_filtering_accept_distance: 2
 visibility_detection_accept_distance: 1.5
 
 # extended boundary
-extended_boundary_flag : 0
+extended_boundary_flag : 1
+# virutal_camera
+enable_irtual_view : 1
 
 # plane quality parameters
 # lam_gradient + lam_consistent = 1
-lam_gradient: 0.05
-lam_consistent: 0.95
+lam_gradient: 0.90 # 0.05
+lam_consistent: 0.10 #0.95
 lam_percep : 0.2
 lam_smooth : 0.05
 
 # photometric consistency filtering
-outlier_removal: 1
+outlier_removal: 0
 
 # 2. image stitching
 # primitive detection
@@ -49,11 +51,11 @@ line_distance_threshold: 10.0
 line_angle_threshold: 5.0
 
 # icp
-lam_dist_icp : 10
-lam_merge_point : 5
+lam_dist_icp : 30
+lam_merge_point : 10
 
 # segments match
-lam_dist : 20
+lam_dist : 20 # 20
 lam_angle : 5
 lam_pro : 10
 
@@ -65,7 +67,7 @@ lambda_preserve : 20.0
 lambda_regular : 1.0
 
 # debug0
-single_plane : 1
+single_plane : 0
 plane_id : 6
 
 # cluster line 
