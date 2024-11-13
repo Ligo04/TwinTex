@@ -1,6 +1,6 @@
 # Multi-Mask RePaint (MMRP)
 
-Download the pretrained MMRP model from [here](https://www.dropbox.com/scl/fi/mc3gsvsbxhp27sl0rknbw/ema_0.9999_151161.pt?rlkey=te3n8gxt3op0zkpxltxxnba79&dl=0) and copy it to `./ata/pretrained/*`.
+Download the pretrained MMRP model from [here](https://drive.google.com/file/d/1VXlJke37iRdP59aOMEBy5sVm0ZrZrU0y/view) and copy it to `./ata/pretrained/*`.
 
 
 ## Structure of the Code
