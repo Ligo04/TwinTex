@@ -6,7 +6,7 @@ Official Implementation for our paper "TwinTex: Geometry-aware Texture Generatio
 
 ## Update
 
-- 2024/12/29: We release some Twintex Models in [here].(https://www.dropbox.com/scl/fo/4i2frf0umkef3h3j34010/ACOTwC1AQrwh60Iel3oGh04?rlkey=cqa430plare95psdtflgeqrsn&st=adkcuhno&dl=0).
+- 2024/12/29: We release some Twintex Models in [here](https://www.dropbox.com/scl/fo/4i2frf0umkef3h3j34010/ACOTwC1AQrwh60Iel3oGh04?rlkey=cqa430plare95psdtflgeqrsn&st=adkcuhno&dl=0).
 
 ## SOP_TwinTex 
 
